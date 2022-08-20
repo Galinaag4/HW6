@@ -29,7 +29,7 @@ public class Main {
         for (var i =0; i<arr.length; i ++) {
        arr2=arr2+arr[i];}{
        System.out.println("Средняя сумма трат за месяц составила "+arr2/daysInMonth+" рублей");}
-    // Задача 4
+    // Задача 4.
        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length; i >=0; i--) {
        System.out.print(reverseFullName[i]);}
