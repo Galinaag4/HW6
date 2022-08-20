@@ -15,27 +15,25 @@ public class Main {
         int arr1 = 0;
     for (int i =0; i<arr.length; i ++) {
         arr1=arr1+arr[i];}{
-            System.out.print("Сумма трат за месяц составила"+arr1+"рублей");}
+        System.out.println("Сумма трат за месяц составила "+arr1+" рублей");}
     // Задача 2
-        int arr3=0;
-        int arr4 = 0;
-        for (int i = 0; i < arr.length-1; i++)
-         if (arr[i]<arr([i+1])){
-            arr4=arr4 + arr[i];} if(arr[i] > arr([i+1]) {arr3= arr3+arr[i];}{
-            System.out.println("Минимальная сумма трат за день составила"+ arr4+ "рублей. Максимальная сумма трат за день составила" +arr3+ "рублей");
-        }
-
-    // Задача 3
+        int min=arr[0];
+        int max= arr[0];
+        for (int i = 0; i < arr.length; i++){
+        if (max<arr[i]){max = arr[i];}
+        if (min>arr[i]){min = arr[i];}}{
+            System.out.println("Минимальная сумма трат за день составила "+min+" Максимальная сумма трат составила "+min);}
+        // Задача 3
         int arr2 = 0;
+        int daysInMonth = 30;
         for (var i =0; i<arr.length; i ++) {
-            arr2=arr2+arr[i];}{
-            System.out.print("Средняя сумма трат за месяц составила"+ arr1/30 + "рублей");}
+       arr2=arr2+arr[i];}{
+       System.out.println("Средняя сумма трат за месяц составила "+arr2/daysInMonth+" рублей");}
     // Задача 4
-        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = 10; i<reverseFullName.length;i--){
-            System.out.print(reverseFullName[i]);}
+       char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length; i >=0; i--) {
+       System.out.print(reverseFullName[i]);}
 
+    ;}
     }
 
-
-}
